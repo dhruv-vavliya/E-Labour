@@ -6,7 +6,7 @@ export default function Login() {
         <>
             {/* onSubmit */}
 
-            <div className="container">
+            <div className="container" style={{"minHeight":"44.4vh"}}>
                 <div className="loginform text-center mt-3 col-sm-12 col-md-6 ">
                     <h2>Login To E-Labour</h2><br />
 
@@ -17,7 +17,7 @@ export default function Login() {
                         <div className="mb-3">
                             <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Enter Your Password' name="password" onChange={onchange} />
                         </div>
-                        <button type="submit" className="lnbtn btn">Login</button>
+                        <button type="submit" className="lnbtn btn btn-primary">Login</button>
                     </form>
 
                 </div>

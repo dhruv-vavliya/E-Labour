@@ -1,12 +1,13 @@
 // import logo from './logo.svg';
 
+
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Login from './components/Login';
-import Signup_Jobgiver from './components/Signup_Jobgiver';
-import Signup_Jobseeker from './components/Signup_Jobseeker';
+import SignupJobGiver from './components/SignupJobGiver';
+import SignupJobSeeker from './components/SignupJobSeeker';
 
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
               <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/login" element={<Login/>} />
-              <Route path="/signup-jobgiver" element={<Signup_Jobgiver />} />
-              <Route path="/signup-jobseeker" element={<Signup_Jobseeker />} />
+              <Route path="/signup-jobgiver" element={<SignupJobGiver />} />
+              <Route path="/signup-jobseeker" element={<SignupJobSeeker />} />
 
                 {/* 
                 <Route path="/login" element={<Login loggedin={loggedin} setloggedin={setloggedin} />} />
