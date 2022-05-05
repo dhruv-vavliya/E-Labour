@@ -4,9 +4,6 @@
     width: 60%;
 }
 
-.footer span {
-    font-weight: 100;
-}
 
 .contact .title, .follow .title {
     font-weight: bold;
@@ -29,7 +26,22 @@
 }
 
 .details{
-    font-size: 13px;
-    font-weight: bold;
+    /* font-size: 13px; */
 }
 
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 100px){
+    .text-sm-center {
+        text-align: center!important;
+    }
+}
+
+@media (min-width: 992px){
+    .text-lg-start {
+        text-align: left!important;
+    }
+}

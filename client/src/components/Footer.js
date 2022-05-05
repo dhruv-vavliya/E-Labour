@@ -7,35 +7,32 @@ export default function Footer() {
         <>
             <div style={{"height" : "100px"}}></div>
             <div className="footer pt-3">
-                <div className="container">
+                <div className="container  text-sm-center text-lg-start">
                     <div className="row">
-                        <div className="col-lg-4 col-sm-12">
+                        <div className="col-lg-4 col-sm-12 mb-sm-3">
                             <div className="contact">
-                                <span className="title">Contact Us</span>
-                                {/* <hr className="p-0 mt-1 mb-1" /> */}
+                                <span className="title mb-1">Contact Us</span>
                                 <span className='details' >Name : XYZ</span>
                                 <span className='details' >Phone : 112233445566</span>
                             </div>
                         </div>
-                        {/* <div className="col-2"> <div className="verline m-auto"></div> </div> */}
-                        <div className="col-lg-4 col-sm-12">
+                        <div className="col-lg-4 col-sm-12 mb-sm-3">
                             <div className="follow">
-                            <span className="title">Quick Links</span>
-                            <span><i className="fab fa-instagram"></i><Link to="/" > Instagram</Link></span>
-                            <span><i className="fab fa-facebook"></i><Link to="/" > Facebook</Link></span>
-                            <span><i className="fab fa-whatsapp"></i><Link to="/" > Whatsapp</Link></span>
-                            <span><i className="fab fa-twitter"></i><Link to="/" > Twitter</Link></span>
+                            <span className="title mb-1">Follow Us</span>
+                            <span><Link to="/" ><i className="fab fa-instagram"></i> Instagram</Link></span>
+                            <span><Link to="/" ><i className="fab fa-facebook"></i> Facebook</Link></span>
+                            <span><Link to="/" ><i className="fab fa-whatsapp"></i> Whatsapp</Link></span>
+                            <span><Link to="/" ><i className="fab fa-twitter"></i> Twitter</Link></span>
 
-                            {/* <hr className="p-0 mt-1 mb-1" /> */}
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-12">
                             <div className="follow">
-                            <span className="title">Follow Us</span>
-                            <span><i class="fas fa-chevron-circle-right"></i><Link to="/" > Dashboard</Link></span>
-                            <span><i class="fas fa-chevron-circle-right"></i><Link to="/" > Auction</Link></span>
-                            <span><i class="fas fa-chevron-circle-right"></i><Link to="/" > Subscribe</Link></span>
-                            <span><i class="fas fa-chevron-circle-right"></i><Link to="/" > About</Link></span>
+                            <span className="title mb-1">Quick Links</span>
+                            <span><Link to="/" > <i className="fas fa-chevron-circle-right"></i> Dashboard</Link></span>
+                            <span><Link to="/" > <i className="fas fa-chevron-circle-right"></i> Auction</Link></span>
+                            <span><Link to="/" > <i className="fas fa-chevron-circle-right"></i> Subscribe</Link></span>
+                            <span><Link to="/" > <i className="fas fa-chevron-circle-right"></i> About</Link></span>
 
                             {/* <hr className="p-0 mt-1 mb-1" /> */}
                             </div>

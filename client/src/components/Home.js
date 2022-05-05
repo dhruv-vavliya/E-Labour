@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "../CSS/home.css"
 
-export default function () {
+export default function Home() {
   return (
     <>
         <div className="container">
@@ -15,8 +16,8 @@ export default function () {
                 <div className="suform text-center col-md-6 col-sm-12" > 
                     <div className='suaform' >
                         <h5 className='sutxt' >Sign up</h5><hr style={{ "width":"90%" ,"margin":"13px auto" }} />
-                        <button type="button" className="subtn btn btn-primary">As a Job-Giver</button>
-                        <button type="button" className="subtn btn btn-primary">As a Job-Seeker</button>
+                        <Link to='signup-jobgiver'><button type="button" className="subtn btn btn-primary">As a Job-Giver</button></Link>
+                        <Link to='signup-jobseeker'><button type="button" className="subtn btn btn-primary">As a Job-Seeker</button></Link>
                         
                         <div className="separate" style={{ "margin":"auto" ,"width":"90%" }} >
                             <hr style={{ "display":"inline" ,"width":"43%"}} />
@@ -24,7 +25,7 @@ export default function () {
                             <hr style={{ "display":"inline" ,"width":"43%" }} />
                         </div>
                         
-                        <button type="button" className="lnbtn btn btn-primary">Login</button>
+                        <Link to='login'><button type="button" className="lnbtn btn btn-primary">Login</button></Link>
                     </div>
                     <span className='learn' >Learn More</span>
                 </div>
