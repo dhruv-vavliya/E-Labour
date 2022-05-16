@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, useLocation ,useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png'
 import '../CSS/navbar.css'
 
@@ -37,7 +37,7 @@ function Navbar(props) {
                         </li> */}
                     </ul>
                     <form className="d-flex">
-                        <Link className="btn btn-primary me-1" to="/login" role="button">Login <i className="fas fa-sign-in-alt"></i></Link>
+                        <Link className="nav-lnbtn btn btn-primary mx-1" to="/login" role="button">Login <i className="fas fa-sign-in-alt"></i></Link>
                         {/* { !loggedin && <Link className="btn btn-primary mx-2" to="/login" role="button">Login <i className="fas fa-sign-in-alt"></i></Link>} */}
                         {/* { !loggedin && <Link className="btn btn-primary mx-1" to="/signup" role="button">Signup <i className="fas fa-user-plus"></i></Link>} */}
                         {/* { loggedin && <button className="btn btn-primary mx-1" role="button" onClick={logout} ><i className="fas fa-sign-out-alt"></i> Logout </button>} */}

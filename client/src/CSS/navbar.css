@@ -2,3 +2,7 @@
     width: 15%;
     filter : brightness(0) invert(1);
 }
+
+.nav-lnbtn{
+    width: 100px;
+}
