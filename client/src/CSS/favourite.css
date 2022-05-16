@@ -1,0 +1,37 @@
+.favourite .fa-star{
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.favourite .fa-star:hover{
+    transform: scale(1.5);
+}
+
+.favourite .jobTitle {
+    font-weight: bold;
+    font-size: large;
+  }
+
+.favourite .acceptbtn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background-color: #f46e4d;
+    width: 4.2rem;
+  }
+
+  

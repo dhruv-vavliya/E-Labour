@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "../CSS/login.css"
 
 export default function Login() {
@@ -6,7 +7,7 @@ export default function Login() {
         <>
             {/* onSubmit */}
 
-            <div className="container" style={{"minHeight":"44.4vh"}}>
+            <div className="container" style={{ "minHeight": "44.4vh" }}>
                 <div className="loginform text-center mt-3 col-sm-12 col-md-6 ">
                     <h2>Login To E-Labour</h2><br />
 
@@ -20,6 +21,7 @@ export default function Login() {
                         <button type="submit" className="lnbtn btn btn-primary">Login</button>
                     </form>
 
+                    <Link className="reg" to="/" >New User? Regiser</Link>
                 </div>
             </div>
         </>
