@@ -18,7 +18,7 @@ export default function Login() {
                         <div className="mb-3">
                             <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Enter Your Password' name="password" onChange={onchange} />
                         </div>
-                        <button type="submit" className="lnbtn btn btn-primary">Login</button>
+                        <button type="submit" className="lnbtn btn btn-primary"><Link className="lnbtnLink" to='/auction'> Login </Link></button>
                     </form>
 
                     <Link className="reg" to="/" >New User? Regiser</Link>
