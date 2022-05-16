@@ -16,8 +16,8 @@ function Navbar(props) {
 
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div className="container-fluid">
-                <Link className="navbar-brand" to="/"><img  className="elogo mt-2 mb-2" src={logo}/></Link>
+            <div className="container-fluid my-1">
+                <Link className="navbar-brand" to="/"><img  className="elogo" src={logo}/></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
