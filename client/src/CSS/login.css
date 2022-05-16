@@ -6,7 +6,12 @@
 
 .lnbtn{
     background-color: #f46e4d;
-    color: white;
+    color: white !important;
+    border: none;
+}
+
+.lnbtnLink{
+    color: white !important;
     border: none;
 }
 

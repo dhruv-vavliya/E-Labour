@@ -23,7 +23,8 @@ function Navbar(props) {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
-                        <Link className='nav-link active' to="/dashboard" >Dashboard</Link>
+                        <Link className='nav-link active' to="/" >Home</Link>
+                        <Link className='nav-link' to="/dashboard" >Dashboard</Link>
                         <Link className='nav-link' to="/auction" >Auction</Link>
                         <Link className='nav-link' to="/" >Subscribe</Link>
                         <Link className='nav-link' to="/" >About</Link>
@@ -36,7 +37,7 @@ function Navbar(props) {
                         </li> */}
                     </ul>
                     <form className="d-flex">
-                        <Link className="btn btn-primary mx-2" to="/login" role="button">Login <i className="fas fa-sign-in-alt"></i></Link>
+                        <Link className="btn btn-primary me-1" to="/login" role="button">Login <i className="fas fa-sign-in-alt"></i></Link>
                         {/* { !loggedin && <Link className="btn btn-primary mx-2" to="/login" role="button">Login <i className="fas fa-sign-in-alt"></i></Link>} */}
                         {/* { !loggedin && <Link className="btn btn-primary mx-1" to="/signup" role="button">Signup <i className="fas fa-user-plus"></i></Link>} */}
                         {/* { loggedin && <button className="btn btn-primary mx-1" role="button" onClick={logout} ><i className="fas fa-sign-out-alt"></i> Logout </button>} */}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link} from 'react-router-dom'
 import '../CSS/signup.css'
 
 export default function SignupJobSeeker() {
@@ -32,7 +33,7 @@ export default function SignupJobSeeker() {
                         <div className="mb-3">
                             <input type="text" className="form-control" name="skill" placeholder='Enter Your Skills' onChange={onchange} id="skill" aria-describedby="skillHelp" />
                         </div>
-                        <button type="submit" className="snbtn btn btn-primary">SignUp</button>
+                        <button type="submit" className="snbtn btn btn-primary"><Link className="snbtnLogin" to='/login'>SignUp</Link></button>
                     </form>
                 </div>
             </div>
