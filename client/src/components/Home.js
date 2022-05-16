@@ -27,7 +27,7 @@ export default function Home() {
                         
                         <Link to='login'><button type="button" className="lnbtn btn btn-primary">Login</button></Link>
                     </div>
-                    <span className='learn' >Learn More</span>
+                    <span className='learn' >Learn More <i className="fas fa-chevron-circle-right"></i></span>
                 </div>
 
             </div>

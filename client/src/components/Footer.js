@@ -7,16 +7,16 @@ export default function Footer() {
         <>
             <div style={{"height" : "100px"}}></div>
             <div className="footer pt-3">
-                <div className="container  text-sm-center text-lg-start">
+                <div className="container text-center text-lg-start">
                     <div className="row">
-                        <div className="col-lg-4 col-sm-12 mb-sm-3">
+                        <div className="col-lg-4 col-sm-12 mb-3">
                             <div className="contact">
                                 <span className="title mb-1">Contact Us</span>
-                                <span className='details' >Name : XYZ</span>
-                                <span className='details' >Phone : 112233445566</span>
+                                <span className='details' >Name : E-Labour Team</span>
+                                <span className='details' >Phone : xxxx-xxx-xxx</span>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-12 mb-sm-3">
+                        <div className="col-lg-4 col-sm-12 mb-3">
                             <div className="follow">
                             <span className="title mb-1">Follow Us</span>
                             <span><Link to="/" ><i className="fab fa-instagram"></i> Instagram</Link></span>
@@ -26,11 +26,11 @@ export default function Footer() {
 
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-12">
+                        <div className="col-lg-4 col-sm-12 mb-3">
                             <div className="follow">
                             <span className="title mb-1">Quick Links</span>
-                            <span><Link to="/" > <i className="fas fa-chevron-circle-right"></i> Dashboard</Link></span>
-                            <span><Link to="/" > <i className="fas fa-chevron-circle-right"></i> Auction</Link></span>
+                            <span><Link to="/dashboard" > <i className="fas fa-chevron-circle-right"></i> Dashboard</Link></span>
+                            <span><Link to="/auction" > <i className="fas fa-chevron-circle-right"></i> Auction</Link></span>
                             <span><Link to="/" > <i className="fas fa-chevron-circle-right"></i> Subscribe</Link></span>
                             <span><Link to="/" > <i className="fas fa-chevron-circle-right"></i> About</Link></span>
 
