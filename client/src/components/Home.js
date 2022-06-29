@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router'
+import loggedinContext from '../context/login/loggedinContext';
 import "../CSS/home.css"
 
 export default function Home() {
+
+    const loggedincontext = useContext(loggedinContext);
+    const { user } = loggedincontext;
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (user.role === "jobgiver") {
+            navigate('/dashboard');
+        }
+        else if (user.role === "jobseeker") {
+            navigate('/favourite');
+        }
+    }, [user])
+
   return (
     <>
         <div className="container">

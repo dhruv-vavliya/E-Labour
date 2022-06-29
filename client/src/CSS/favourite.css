@@ -1,9 +1,9 @@
-.favourite .fa-star{
+.favourite .fa-trash-can{
     transition: transform .2s;
     cursor: pointer;
 }
 
-.favourite .fa-star:hover{
+.favourite .fa-trash-can:hover{
     transform: scale(1.5);
 }
 
